@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazynEdu", "MagazynEdu\MagazynEdu.csproj", "{0B94AD89-CA1E-4F71-A3CE-2D0E686CDDEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagazynEdu", "MagazynEdu\MagazynEdu.csproj", "{0B94AD89-CA1E-4F71-A3CE-2D0E686CDDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazynEdu.DataAccess", "MagazynEdu.DataAccess\MagazynEdu.DataAccess.csproj", "{7B6C4685-E393-4395-AFF3-76DCB1FD200F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0B94AD89-CA1E-4F71-A3CE-2D0E686CDDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B94AD89-CA1E-4F71-A3CE-2D0E686CDDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B94AD89-CA1E-4F71-A3CE-2D0E686CDDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6C4685-E393-4395-AFF3-76DCB1FD200F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6C4685-E393-4395-AFF3-76DCB1FD200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6C4685-E393-4395-AFF3-76DCB1FD200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6C4685-E393-4395-AFF3-76DCB1FD200F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
