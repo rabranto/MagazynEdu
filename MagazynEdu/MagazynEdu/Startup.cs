@@ -1,4 +1,6 @@
+using MagazynEdu.ApplicationServices.API.Domain;
 using MagazynEdu.DataAccess;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +23,8 @@ namespace MagazynEdu
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMediatR(typeof(ResponseBase<>));
+
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
             services.AddDbContext<WarehouseStorageContext>(opt => opt.UseSqlServer(this.Configuration.GetConnectionString("WarehouseDatabaseConnection")));
